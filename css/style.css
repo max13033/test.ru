@@ -1,0 +1,54 @@
+.out{
+	display: flex;
+	background-color: #050505;
+	width: 300px;
+	height: 300px;
+}
+.inner{
+	margin-top: auto;
+	margin-bottom: auto;
+	background-color: #505050;
+	width: 300px;
+	height: 300px;
+}
+.big{
+	font-size: 30pt;
+}
+
+.small{
+	font-size: 10pt;
+}
+
+.red{
+	color: red;
+}
+
+.green{
+	color: green;
+}
+.b1{
+	background-color: #434343;
+	width: 500px;
+	height: 500px;
+}
+.b2{
+	background-color: #564788;
+	width: 300px;
+	height: 300px;
+}
+.b3{
+	background-color: #657489;
+	width: 90px;
+	height: 90px;	
+}
+.b2 ~ div{
+	background-color: #653489;
+	width: 90px;
+	height: 90px;
+}
+
+
+
+
+
+
