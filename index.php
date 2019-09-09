@@ -29,7 +29,7 @@ if(isset($_FILES['photo'])){
 	<img src = "img/1.jpg"> 
 <?
 	$image_p = imagecreatetruecolor(200, 150);
-	imagecopyresampled($image_p, imagecreatefromjpeg('img/1.jpg'), 0, 0, 0, 0, 200, 150, 700, 525);
+	imagecopyresampled($image_p, imagecreatefromjpeg('img/2.jpg'), 0, 0, 0, 0, 200, 150, 700, 525);
 	imagejpeg($image_p, null, 100);
 
 
