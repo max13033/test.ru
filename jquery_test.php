@@ -11,6 +11,12 @@
 
 <script type="text/javascript" src="js/jquery.js"></script>
 
+<script type="text/javascript">
+	$(function(){	
+		$("h1").css("color", "green");
+	});	
+
+</script>
 
 <div id = "cont">
 	<h1>Основной заголовок</h1>

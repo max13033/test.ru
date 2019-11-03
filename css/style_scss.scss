@@ -1,0 +1,26 @@
+$blue: #77f;
+
+$b_width: 100px;
+$b_height: 100px;
+$font_size: 16pt;
+
+#cont{
+	width: 5*$b_width;
+	height: 3*$b_height;
+	background-color: #ff5;
+
+	h1{
+		color: red;
+	}
+
+	div{
+		font-size: $font_size;
+		height: $b_height;
+		width: $b_width;
+		background-color: $blue;
+		border: 1px solid black;
+		border-radius: 5px;
+	}
+
+
+}
