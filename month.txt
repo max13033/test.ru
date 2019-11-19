@@ -1,0 +1,12 @@
+jan
+fab
+mar
+apl
+may
+jun
+jul
+aug
+sen
+oct
+nuw
+dec
